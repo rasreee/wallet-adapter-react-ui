@@ -1,6 +1,6 @@
 {
   "name": "@rasreee/solana-wallet-adapter-react-ui",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "repository": "https://github.com/rasreee/wallet-adapter-react-ui",
   "license": "Apache-2.0",
   "main": "lib/index.js",
