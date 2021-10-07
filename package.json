@@ -1,7 +1,7 @@
 {
     "name": "@rasreee/solana-wallet-adapter-react-ui",
-    "version": "0.5.0",
-    "repository": "https://github.com/solana-labs/wallet-adapter",
+    "version": "0.0.1",
+    "repository": "https://github.com/rasreee/wallet-adapter-react-ui",
     "license": "Apache-2.0",
     "main": "lib/index.js",
     "esnext": "lib/index.js",
@@ -16,8 +16,9 @@
         "access": "public"
     },
     "scripts": {
-        "clean": "shx rm -rf lib/*",
-        "build": "yarn clean && tsc"
+        "clean": "rm -rf lib/*",
+        "build": "yarn clean && tsc",
+        "publish-npm": "yarn build && yarn publish"
     },
     "peerDependencies": {
         "@solana/wallet-adapter-base": "^0.6.0",
