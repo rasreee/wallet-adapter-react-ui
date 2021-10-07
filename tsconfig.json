@@ -1,9 +1,21 @@
 {
-    "compilerOptions": {
-        "noEmit": false,
-        "outDir": "lib",
-        "jsx": "react-jsx",
-        "esModuleInterop": true
-    },
-    "include": ["src"]
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "lib",
+    "declaration": true,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "stripInternal": true,
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
