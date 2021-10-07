@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "noEmit": false,
+        "outDir": "lib",
+        "jsx": "react-jsx",
+        "esModuleInterop": true
+    },
+    "include": ["src"]
+}
